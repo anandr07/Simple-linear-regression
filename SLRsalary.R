@@ -1,0 +1,11 @@
+attach(Salary_Data)
+View(Salary_Data)
+hist(YearsExperience)
+summary(Salary_Data)
+plot(YearsExperience,Salary)
+cor(YearsExperience,Salary)
+slr_sd=lm(Salary~YearsExperience)
+summary(slr_sd)
+confint(slr_sd,level=0.95)
+predict(slr_sd,interval = "predict")
+#As the R squared value is really good that is 0.957 this model is a very good model.
