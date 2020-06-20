@@ -1,5 +1,5 @@
 # ML-codes
-Simple linear regression
+Simple linear regression(Using R)
 
 1) Calories_consumed -> predict weight gained using calories consumed
 
